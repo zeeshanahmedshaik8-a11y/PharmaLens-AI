@@ -1,74 +1,67 @@
-\# 💊 PharmaLens AI
+**💊 PharmaLens AI**
 
-\### Explainable Machine Learning-Based Drug Response Prediction and Pharmaceutical Data Analytics
-
+**Explainable Machine Learning-Based Drug Response Prediction and Pharmaceutical Data Analytics
+**
 
 
 PharmaLens AI is a machine learning-based pharmaceutical analytics platform that predicts experimental drug response using molecular descriptors, drug concentration, and cancer cell-line characteristics.
 
 
 
-The project combines \*\*XGBoost, RDKit, SHAP, and Streamlit\*\* to provide predictive analytics and explainable AI visualizations.
+The project combines XGBoost, RDKit, SHAP, and Streamlit to provide predictive analytics and explainable AI visualizations.
 
 
 
-\## 🌐 Live Application
+**🌐 Live Application**
 
 
 
-\*\*\[Launch PharmaLens AI](https://pharmalens-ai-tenrnvqcwbapp2zstnesbsi.streamlit.app/)\*\*
+[Launch PharmaLens AI](https://pharmalens-ai-tenrnvqcwbapp2zstnesbsi.streamlit.app/)
 
 
 
-\## 💻 GitHub Repository
+**💻 GitHub Repository**
 
 
 
-\[PharmaLens AI Source Code](https://github.com/zeeshanahmedshaik8-a11y/PharmaLens-AI)
+[PharmaLens AI Source Code](https://github.com/zeeshanahmedshaik8-a11y/PharmaLens-AI)
 
 
 
-\## 🎯 Project Objectives
+**🎯 Project Objectives**
+
+-> Analyze large-scale pharmaceutical drug-response datasets.
+-> Extract molecular features from SMILES representations.
+-> Develop machine learning models for drug-response prediction.
+-> Compare baseline regression with XGBoost.
+-> Explain model predictions using SHAP.
+-> Deploy an interactive pharmaceutical analytics dashboard.
 
 
 
-\- Analyze large-scale pharmaceutical drug-response datasets.
-
-\- Extract molecular features from SMILES representations.
-
-\- Develop machine learning models for drug-response prediction.
-
-\- Compare baseline regression with XGBoost.
-
-\- Explain model predictions using SHAP.
-
-\- Deploy an interactive pharmaceutical analytics dashboard.
+**🛠️ Technologies Used**
 
 
 
-\## 🛠️ Technologies Used
+Programming: Python
+
+Data Analysis: Pandas, NumPy
+
+Machine Learning: Scikit-learn, XGBoost
+
+Cheminformatics: RDKit
+
+Explainable AI: SHAP
+
+Visualization: Matplotlib
+
+Web Application: Streamlit
+
+Version Control: Git and GitHub
 
 
 
-\- \*\*Programming:\*\* Python
-
-\- \*\*Data Analysis:\*\* Pandas, NumPy
-
-\- \*\*Machine Learning:\*\* Scikit-learn, XGBoost
-
-\- \*\*Cheminformatics:\*\* RDKit
-
-\- \*\*Explainable AI:\*\* SHAP
-
-\- \*\*Visualization:\*\* Matplotlib
-
-\- \*\*Web Application:\*\* Streamlit
-
-\- \*\*Version Control:\*\* Git and GitHub
-
-
-
-\## 📊 Dataset
+ **📊 Dataset**
 
 
 
@@ -76,11 +69,11 @@ The project uses pharmaceutical screening data from the Broad Institute's PRISM 
 
 
 
-After preprocessing and feature engineering, the machine learning dataset contains approximately \*\*2.58 million observations\*\*, covering \*\*4,663 compounds\*\* and \*\*568 cell lines\*\*.
+After preprocessing and feature engineering, the machine learning dataset contains approximately 2.58 million observations, covering 4,663 compounds and 568 cell lines.
 
 
 
-\## 🤖 Model Performance
+**🤖 Model Performance**
 
 
 
@@ -88,13 +81,8 @@ The models were evaluated using a compound-grouped train/test split to assess ge
 
 
 
-| Model | MAE | RMSE | R² |
+<img width="957" height="141" alt="image" src="https://github.com/user-attachments/assets/dc69d539-5eae-4d9b-82b7-63185cb4671f" />
 
-|---|---:|---:|---:|
-
-| Ridge Regression | 0.5706 | 0.9302 | 0.0173 |
-
-| XGBoost | 0.5691 | 0.8985 | 0.0831 |
 
 
 
@@ -102,7 +90,7 @@ XGBoost achieved the better performance, although its relatively low R² indicat
 
 
 
-\## 🔍 Explainable AI
+**🔍 Explainable AI**
 
 
 
@@ -112,41 +100,33 @@ SHAP analysis helps explain which input features influence model predictions.
 
 Important features include:
 
-
-
-\- Hydrogen bond acceptors
-
-\- Molecular weight
-
-\- Topological polar surface area
-
-\- LogP
-
-\- Rotatable bonds
-
-\- Hydrogen bond donors
-
-\- Drug concentration
+-> Hydrogen bond acceptors
+-> Molecular weight
+-> Topological polar surface area
+-> LogP
+-> Rotatable bonds
+-> Hydrogen bond donors
+-> Drug concentration
 
 
 
-\## 🚀 Application Features
+**🚀 Application Features
+**
+
+
+Overview: Pharmaceutical data analytics and visualizations.
 
 
 
-\*\*Overview:\*\* Pharmaceutical data analytics and visualizations.
+Prediction: Machine learning-based drug-response estimation.
 
 
 
-\*\*Prediction:\*\* Machine learning-based drug-response estimation.
+Explainability: SHAP feature importance and summary visualizations.
 
 
 
-\*\*Explainability:\*\* SHAP feature importance and summary visualizations.
-
-
-
-\## ⚙️ Installation
+**⚙️ Installation**
 
 
 
@@ -188,7 +168,7 @@ streamlit run app.py
 
 
 
-\## ⚠️ Disclaimer
+**⚠️ Disclaimer**
 
 
 
@@ -196,33 +176,21 @@ PharmaLens AI is an educational and research demonstration. Its predictions have
 
 
 
-\## 🔮 Future Enhancements
+**🔮 Future Enhancements**
 
 
 
-\- Integrate additional biological and genomic features.
-
-\- Improve predictive accuracy using advanced machine learning architectures.
-
-\- Support additional pharmaceutical datasets.
-
-\- Extend explainability to individual predictions.
-
-\- Improve generalization to unseen drugs and cell lines.
+-> Integrate additional biological and genomic features.
+-> Improve predictive accuracy using advanced machine learning architectures.
+-> Support additional pharmaceutical datasets.
+-> Extend explainability to individual predictions.
+-> Improve generalization to unseen drugs and cell lines.
 
 
 
-\## 👨‍💻 Author
+**👨‍💻 Author**
 
-
-
-\*\*Shaik Zeeshan Ahmed\*\*
-
-
-
+Shaik Zeeshan Ahmed
 B.Tech – Computer Science and Engineering (Data Science)
-
-
-
 GitHub: \[zeeshanahmedshaik8-a11y](https://github.com/zeeshanahmedshaik8-a11y)
 
