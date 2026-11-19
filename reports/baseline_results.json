@@ -1,0 +1,14 @@
+{
+    "model": "Ridge Regression",
+    "split": "Compound-grouped 80/20",
+    "random_state": 42,
+    "train_records": 2061057,
+    "test_records": 515539,
+    "train_compounds": 3730,
+    "test_compounds": 933,
+    "mean_baseline_mae": 0.5704140329831358,
+    "mean_baseline_rmse": 0.9390522262125591,
+    "ridge_mae": 0.5706328955510019,
+    "ridge_rmse": 0.9301802538587034,
+    "ridge_r2": 0.01732628519054058
+}

@@ -1,0 +1,12 @@
+{
+    "model": "XGBoost",
+    "split": "Compound-grouped 80/20",
+    "random_state": 42,
+    "train_records": 2061057,
+    "test_records": 515539,
+    "train_compounds": 3730,
+    "test_compounds": 933,
+    "mae": 0.5691077549661158,
+    "rmse": 0.898535422353673,
+    "r2": 0.08305029970882061
+}
