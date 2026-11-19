@@ -31,10 +31,15 @@ The project combines XGBoost, RDKit, SHAP, and Streamlit to provide predictive a
 **🎯 Project Objectives**
 
 -> Analyze large-scale pharmaceutical drug-response datasets.
+
 -> Extract molecular features from SMILES representations.
+
 -> Develop machine learning models for drug-response prediction.
+
 -> Compare baseline regression with XGBoost.
+
 -> Explain model predictions using SHAP.
+
 -> Deploy an interactive pharmaceutical analytics dashboard.
 
 
@@ -101,17 +106,22 @@ SHAP analysis helps explain which input features influence model predictions.
 Important features include:
 
 -> Hydrogen bond acceptors
+
 -> Molecular weight
+
 -> Topological polar surface area
+
 -> LogP
+
 -> Rotatable bonds
+
 -> Hydrogen bond donors
+
 -> Drug concentration
 
 
 
-**🚀 Application Features
-**
+**🚀 Application Features**
 
 
 Overview: Pharmaceutical data analytics and visualizations.
@@ -181,9 +191,13 @@ PharmaLens AI is an educational and research demonstration. Its predictions have
 
 
 -> Integrate additional biological and genomic features.
+
 -> Improve predictive accuracy using advanced machine learning architectures.
+
 -> Support additional pharmaceutical datasets.
+
 -> Extend explainability to individual predictions.
+
 -> Improve generalization to unseen drugs and cell lines.
 
 
@@ -191,6 +205,8 @@ PharmaLens AI is an educational and research demonstration. Its predictions have
 **👨‍💻 Author**
 
 Shaik Zeeshan Ahmed
+
 B.Tech – Computer Science and Engineering (Data Science)
+
 GitHub: \[zeeshanahmedshaik8-a11y](https://github.com/zeeshanahmedshaik8-a11y)
 
